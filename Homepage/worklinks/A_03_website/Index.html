@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                  <title>Yullistic</title>
+
+
+            <link rel="javascript" href="main.js">
+            <link rel="stylesheet" href="Style.css">
+
+            <script src="https://kit.fontawesome.com/9699e7bc20.js" crossorigin="anonymous">
+            </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typingEffect = new Typed(".multitext",{
+        strings : ["julianne bullen", "a coder"," a web developer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500
+    })
+
+    
+    </script>
+
+        </head>
+
+<body>
+   
+<div class="main_box" id="home">
+             
+             <div class="image-user">
+                 <img src="image/user-01.JPG">
+             </div>
+    
+
+    <!--*********** buttons**************-->
+    <input type="checkbox" id="check">
+    <div class="btn_one">
+        <label for="check">
+            <i class="fas fa-bars"></i>
+           
+        </label>
+    </div>
+
+    <div class="sidebar_menu">
+        <div class="logo">  
+            <a href="#">Yullistic</a>
+        </div>
+
+     <div class="btn_two">
+        <label for="check">
+            <i class="fas fa-times"></i>
+        </label>
+     </div>
+
+      <div class="menu"> 
+         <ul>
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#about-me" >About me</a></li>
+            <li><a href="#Resume">Resume</a></li> 
+            <li><a href="#work">Work</a></li> 
+            <li><a href="#contact">Contact</a></li> 
+       \       
+         </ul>
+
+      </div>
+
+        <!--Social media icons-->
+        <div class="social_media">
+
+             <a href="https://www.facebook.com/profile.php?id=100090136260619" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i></a>
+             <a href="https://www.instagram.com/yullistic/" target="_blank">
+                <i class="fa-brands fa-instagram"></i></a>
+             <a href="https://twitter.com/bullen_julianne" target="_blank">
+                <i class="fa-brands fa-twitter"></i></a>
+             <a href="https://www.youtube.com/@juliannebullen4140" target="_blank">
+                <i class="fa-brands fa-youtube"></i></a>
+             <a href="https://www.linkedin.com/in/julianne-p-bullen-71a936267/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i></a>
+             <a href="https://github.com/Yullistic" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+            
+        </div><!--end of social_media-->
+    </div><!--end of sidebar_menu-->
+
+    <div class="head-wrapper">
+            <div class="text-wrapper">
+               <span class="topline">Hello</span>
+                  <h1>I'm <span class="multitext"></span></h1>
+                    <p>COMPUTER ENGINEERING STUDENT IN UNIVERSITY OF BOHOL</p>
+            </div>
+    </div>
+</div>
+
+
+<!--ABOUT ME--> 
+
+<div class="container" id="about-me">
+    <div class="image-container">
+        <img src="image/user-02.JPG" alt="My-image">
+    </div>
+    <div class="content">
+        <h1>A Bit About Me ━━</h1>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am Julianne Bullen, a first-year student studying Computer Engineering at the University of Bohol.
+            I'm trying to improve as a software engineer by learning new things, picking up new abilities, etc.
+            My main experience was learning HTML to create websites. I also enjoy making basic yet artistic and aesthetic designs.
+        </p>
+        <button>Read More</button>
+    </div>
+</div>
+
+   <!--END OF ABOUT ME-->
+  
+   <div class="text-dif" id="Resume">
+    <h1>Allow me to present my educational background, professional experience, and a selection of skills I have acquired.</h1>
+    </div>
+  <div class="tab-container">
+    <div class="circle-container">
+        <div class="circle-title">
+          <h1>Resume</h1>
+          
+        </div>
+        <div class="line"></div>
+        <div class="circle">
+          <img src="four.JPG">
+          
+        </div>
+      </div>
+    <div class="tab-buttons">
+      <div class="tab-button active" onclick="openTab(event, 'tab1')">Education</div>
+      <div class="tab-button" onclick="openTab(event, 'tab2')">Personal Info</div>
+      <div class="tab-button" onclick="openTab(event, 'tab3')">Skill & Experience</div>
+    </div>
+
+    <div id="tab1" class="tab-content active">
+        <h2>Education</h2>
+        <table>
+          <tr>
+            <th>Education</th>
+            <th>Details</th>
+          </tr>
+          <tr>
+            <td>Elementary</td>
+            <td>Graduated in Mayacabac Dauis, Bohol</td>
+          </tr>
+          <tr>
+            <td>High School</td>
+            <td>Graduated in Holy Spirit School of Tagbilaran</td>
+          </tr>
+          <tr>
+            <td>University</td>
+            <td>B.A of Computer Engineering, University of Bohol, 2022-2023</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="tab2" class="tab-content">
+        <h2>Personal Information</h2>
+        <table>
+          <tr>
+            <th>Personal Information</th>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Birthday</td>
+            <td>February 8, 2004</td>
+          </tr>
+          <tr>
+            <td>Sex</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td>Civil Status</td>
+            <td>Single</td>
+          </tr>
+          <tr>
+            <td>Nationality</td>
+            <td>Filipino</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>English, Bisaya, Tagalog</td>
+          </tr>
+        </table>
+      </div>
+      
+
+      <div id="tab3" class="tab-content">
+        <h2>Skills & Experience</h2>
+        <ul>
+          <li>HTML &amp; SCSS</li>
+          <li>Adobe Photoshop</li>
+          <li>CapCut</li>
+          <li>Visual Studio Code</li>
+          <li>TurboC++</li>
+          <li>Creativity</li>
+          <li>Sketch</li>
+          <li>MediBang</li>
+        </ul>
+      </div>
+     </div> 
+
+
+     <div class="work-title" id="work">
+        <h2>My works</h2>
+        </div>
+     
+<div class="work-container" >
+    
+  
+
+    <div class="card">
+      <img src="works/img_02.jpg" alt="Notebook">
+      <div class="cont-text">
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    
+   
+    <div class="card">
+      <img src="works/img_02.jpg" alt="Notebook">
+      <div class="cont-text">
+        <h1>Family </h1>
+        <p></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="works/img_01.jpg" alt="Notebook">
+      <div class="cont-text">
+        <a href="https://github.com/Yazurichuu/quiz_game.git" target="_blank">
+        <h1>Quiz Game</h1><a>
+        <p></p>
+      </div>
+    </div>
+  
+  
+  </div>
+  
+
+<!--Script for multitext-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typingEffect = new Typed(".multitext",{
+        strings : ["julianne bullen", "a coder"," a web developer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500
+    })
+
+    </script>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        
+        // Hide all tab content
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        
+        // Remove active class from tab links
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        
+        // Show the current tab and add active class to the button that opened the tab
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+<script>
+    function openTab(evt, tabName) {
+      var i, tabContent, tabButton;
+
+      // Hide all tab content
+      tabContent = document.getElementsByClassName("tab-content");
+      for (i = 0; i < tabContent.length; i++) {
+        tabContent[i].style.display = "none";
+      }
+
+      // Remove "active" class from all tab buttons
+      tabButton = document.getElementsByClassName("tab-button");
+      for (i = 0; i < tabButton.length; i++) {
+        tabButton[i].className = tabButton[i].className.replace(" active", "");
+      }
+
+      // Show the selected tab content and add "active" class to the button
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+  
+<div class="body">
+    <div class="bubble" style="--delay: 0; top: 10%; left: 10%;"></div>
+    <div class="bubble" style="--delay: 1; top: 20%; left: 80%;"></div>
+    <div class="bubble" style="--delay: 2; top: 30%; left: 50%;"></div>
+    <div class="bubble" style="--delay: 3; top: 40%; left: 30%;"></div>
+    <div class="bubble" style="--delay: 4; top: 50%; left: 70%;"></div>
+    <div class="bubble" style="--delay: 5; top: 60%; left: 40%;"></div>
+    <div class="bubble" style="--delay: 6; top: 70%; left: 90%;"></div>
+    <!-- Add more bubbles as needed -->
+  </div>
+
+
+    <!-- Your website content ends here -->
+
+    <footer id="colophon" class="footer" >
+        <div class="row contact-header" id="contact">
+          <div class="column lg-12">
+            <h2 class="text-pretitle">Get In Touch ━</h2>
+            <p class="text-huge-title">
+              If you want to work with me or just chat, don't hesitate to get in touch.
+            </p>
+          </div>
+        </div>
+    
+        <div class="row contact-content">
+          <div class="column left-block">
+            <p>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quote from Frederick Brooks The hardest single part of building a software system is deciding precisely what to build. No other part of the conceptual work is as difficult as establishing the detailed technical requirements, including all the interfaces to people, to machines, and to other software systems. No other part of the work so cripples the resulting system if done wrong. No other part is more difficult to rectify later.
+            </p>
+            <div class="buttons">
+              <a href="jpbullen@universityofbohol.edu.ph" class="btn btn--primary u-fullwidth">Say Hello</a>
+            </div>
+          </div>
+    
+          <div class="column right-block">
+            <div class="contact-info">
+              <h2 class="text-subtitle">Drop Me a Line.</h2>
+              <ul class="link-list">
+                <li><a href="mailto:jpbullen@universityofbohol.edu.ph">jpbullen@universityofbohol.edu.ph</a></li>
+                <li><a href="tel:+639512084118">+63 951 208 4118</a></li>
+              </ul>
+            </div>
+    
+            <div class="social">
+              <h2 class="text-subtitle">Connect</h2>
+              <ul class="link-list">
+                <li><a href="https://www.facebook.com/profile.php?id=100010396800468">Facebook</a></li>
+                <li><a href="https://twitter.com/bullen_julianne">Twitter</a></li>
+                <li><a href="https://github.com/Yullistic">Github</a></li>
+                <li><a href="https://www.youtube.com/channel/UCvpgteWEh59CD6flj2-0POg">Youtube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row bottom">
+          <div class="column copy">
+            <span>© Copyright Yazurichuu 2022</span>
+            <span>Design by <a href="https://github.com/Yazurichuu">Yullistic</a></span>
+          </div>
+    
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

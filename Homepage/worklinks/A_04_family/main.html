@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+
+
+    <!-- STYLE LINK   -->  
+    <link rel="stylesheet" href="Style.css">
+    
+
+    <!-- Script Java -->  
+    <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+
+</head>
+
+
+<body>
+          <!-- Nav Bar-->  
+         <nav>
+        <div class="logo"> 
+            
+            <a href="#home">Yullistic. </a>
+          </div>
+            
+         <ul>
+    
+                <li><a href="#intro" class="smoothscroll">Intro</a></li>
+                <li><a href="#about-me" class="smoothscroll">Self Gallery</a></li>
+                <li><a href="#about-family" class="smoothscroll">family Gallery</a></li>
+           a
+         </ul>
+        </nav>
+        <div class="introduce" id="intro">
+        <article> 
+            <i>
+            <p>
+                Families are an important element of everyone's lives. 
+                It makes no difference if you have a little or large family, 
+                as long as you have one. A family is a child's first classroom, 
+                where they learn about numerous subjects. Only one's family 
+                provides basic knowledge about one's culture and identity. 
+                To put it another way, one is a reflection of your family. 
+                All of one's good habits and manners are inherited from their 
+                family. I consider myself very lucky to have been born into a
+                 family that has shaped me into a better person. Families, in 
+                 my opinion, are an essential component of one's being. In this
+                  website i will introduce you to my family.
+            </article>
+        </i>
+         </div>
+          <!-- The image container  --> 
+          <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg"  style="width:50%">
+            <div id="imgtext"></div>
+          </div>
+            <!-- The Image Gallery --> 
+          <div class="gallery" id="about-me">
+          <!-- The five columns -->
+          <div class="row">
+            <div class="column">
+                <img src="image/one.JPG" alt="" onclick="myFunction(this);">
+              </div>
+            <div class="column">
+              <img src="image/two.JPG" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/three.JPG" alt=""onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/four.JPG" alt=""  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="image/five.JPG" alt=""  onclick="myFunction(this);">
+              </div>
+           
+          </div>
+          <div style="text-align:center" >
+            
+            <h2>Julianne's Gallery</h2>
+            <p>Click on the images:</p>
+            
+          </div>
+          
+          <!-- The five columns -->
+          <div class="row">
+            <div class="column">
+              <img src="image/six.JPG" alt=""  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/seven.JPG" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/eight.JPG" alt=""onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/nine.JPG" alt=""  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="image/ten.JPG" alt=""  onclick="myFunction(this);">
+              </div>
+           </div>
+          </div>
+        
+         
+       
+
+          <!-- Meet My Family -->
+          <div class="wrapper" id="about-family">
+            <table>
+        <th>
+       
+        <br>
+        <div class="head-title">
+         Meet My Family</div>
+          <b>
+          <p>Introducing the Bullen Family<p>
+
+        </b>
+         
+          </th>
+        <tr>
+          <td>
+          <div class="row-wrapper ">
+            <div class="column-wrapper ">
+              <div class="card">
+                <img src="familyimage/IMG_1.JPG" alt="Teresita" style="width:100%">
+                <div class="container-wrapper ">
+                  <h2>Teresita P. Bullen</h2>
+                  <p class="title-wrapper ">My Mother</p>
+                 
+                
+                </div>
+              </div>
+            </div>
+          
+            <div class="column-wrapper ">
+              <div class="card">
+                <img src="familyimage/IMG_2.JPG" alt="Mike" style="width:100%">
+                <div class="container-wrapper ">
+                  <h2>Antonio P. Bullen Jr.</h2>
+                  <p class="title-wrapper ">My Father</p>
+                
+                </div>
+              </div>
+            </div>
+            
+            <div class="column-wrapper ">
+              <div class="card">
+                <img src="familyimage/IMG_3.JPG" alt="John" style="width:100%">
+                <div class="container-wrapper ">
+                  <h2>Yannie P. Bullen</h2>
+                  <p class="title-wrapper ">My Grand Mother</p>
+             
+
+              
+                </div>
+              </div>
+            </div>
+
+            <div class="column-wrapper ">
+                <div class="card">
+                  <img src="familyimage/IMG_4.JPG" alt="John" style="width:100%">
+                  <div class="container-wrapper ">
+                    <h2>Marian P. Bullen</h2>
+                    <p class="title-wrapper ">My Older Sister</p>
+             
+ 
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="column-wrapper ">
+                <div class="card">
+                  <img src="familyimage/IMG_5.JPG" alt="John" style="width:100%">
+                  <div class="container-wrapper ">
+                    <h2>Althea P. Bullen</h2>
+                    <p class="title-wrapper ">My Second Older Sister</p>
+              
+      
+                  </div>
+                </div>
+              </div>
+
+              <div class="column-wrapper ">
+                <div class="card">
+                  <img src="familyimage/IMG_6.JPG" alt="John" style="width:100%">
+                  <div class="container-wrapper ">
+                    <h2>Anttonete P. Bullen</h2>
+                    <p class="title-wrapper ">My Little Sister</p>
+                  
+    
+                  </div>
+                </div>
+              </div>
+          </div>
+          </td>
+          </tr>
+          </table>
+        </div>
+          
+        
+</body>
+
+
+</html>
